@@ -1,0 +1,515 @@
+body {
+    background: #F1F1F1;
+    margin: 0;
+    padding: 0;
+    font-family: 'Muller', sans-serif;
+    box-sizing: border-box;
+}
+
+.main-content {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.lagoona-image {
+    display: inline-block;
+    width: 140px;
+    height: 40px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 23px;
+    padding-right: 98px;
+    background-color: #F0BF5F;
+    background-image: url('img/sun.png');
+    background-position: center right;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+
+.phone-number {
+    display: inline-block;
+    width: 173px;
+    height: 20px;
+    vertical-align: middle;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: #666666;
+    margin-left: 40px;
+}
+
+.private-page {
+    display: inline-block;
+    margin-left: 500px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    width: 126px;
+    height: auto;
+    padding-top: 5px;
+    padding-left: 29px;
+    padding-bottom: 5px;
+    vertical-align: middle;
+    background-image: url('img/arrow.svg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    color: #CC9933;
+}
+
+.menu-icons {
+    background-image: url('img/menu.png');
+    border-radius: 20px;
+    background: #ffffff;
+    margin-top: 30px;
+}
+
+.about-us {
+    text-decoration: none;
+    color: #666666;
+    display: inline-block;
+    padding-left: 45px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+
+.services {
+    text-decoration: none;
+    color: #666666;
+    display: inline-block;
+    padding-left: 45px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+
+.advantages {
+    text-decoration: none;
+    color: #666666;
+    display: inline-block;
+    padding-left: 45px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+
+.placement {
+    text-decoration: none;
+    color: #666666;
+    display: inline-block;
+    padding-left: 45px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+
+.blog {
+    text-decoration: none;
+    color: #666666;
+    display: inline-block;
+    padding-left: 45px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+
+.contuct-us {
+    text-decoration: none;
+    color: #666666;
+    display: inline-block;
+    padding-left: 45px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+
+.wanna-tour {
+    text-decoration: none;
+    color: #666666;
+    display: inline-block;
+    font-family: Muller;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    width: 67px;
+    height: 16px;
+    margin-left: 134px;
+    color: #CC9933;
+    border-radius: 20px;
+    border: 1px solid #CC9933;
+    padding: 13px 20px;
+}
+
+.callback {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    font-family: Muller;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #CC9933;
+    border: 1px solid #CC9933;
+    border-radius: 20px;
+    margin-left: 40px;
+    padding: 13px 20px;
+}
+
+.offers {
+    display: block;
+    font-family: Muller;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    color: #333333;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    position: relative;
+}
+
+.maldives-image,
+.crete-island {
+    display: block;
+    margin-bottom: 24px;
+    border-radius: 20px;
+}
+
+.rest-numbers {
+    display: inline-block;
+    position: relative;
+    border-radius: 20px;
+}
+
+.image-with-text {
+    position: absolute;
+    top: 150px;
+    right: 229px;
+    bottom: 150px;
+    left: 45px;
+    color: white;
+    font-family: Muller;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+    width: 299px;
+    height: 180px;
+}
+
+.image-with-price-text {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    top: 375px;
+    right: 229px;
+    bottom: 10px;
+    left: 45px;
+    font-family: Muller;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.image-with-additional-text {
+    position: absolute;
+    width: 101.28px;
+    height: 16px;
+    top: 470px;
+    right: 229px;
+    bottom: 40px;
+    left: 45px;
+    padding-bottom: 5px;
+    color: #F0BF5F;
+    background-image: url('img/yellow-rectangle.svg');
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.images-links {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.about-us-title {
+    margin-left: 40px;
+    font-family: Muller;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    width: 109px;
+    height: 40px;
+    top: 924px;
+    left: 415px;
+    gap: 0px;
+    opacity: 0px;
+    color: #333333;
+}
+
+.text {
+    font-family: Muller;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #000000;
+    width: 888px;
+    height: 192px;
+}
+
+.lists {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin-left: 0;
+}
+
+.lists .about-us-lists {
+    display: inline-block;
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+    margin-left: 0;
+    border-radius: 15px 15px 0 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.lists li {
+    background-image: url('img/Background-image1.jpg');
+    margin-right: 15px;
+    border-radius: 20px;
+}
+
+.text-section {
+    width: 100%;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.exclusive-service {
+    color: #CC9933;
+    font-family: Muller;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: left;
+    width: 285px;
+    margin-top: -15px
+}
+
+.service-description {
+    color: #000000;
+    font-family: Muller;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    width: 402px;
+    height: 64px;
+    margin-top: -15px;
+}
+
+.advantages-lists {
+    width: 276px;
+    height: 276px;
+    border-radius: 15px 0px 0px 0px;
+}
+
+.advantages-description {
+    padding-top: 5px;
+    padding-right: 42px;
+    padding-bottom: 32px;
+    padding-left: 45px;
+    font-family: Muller;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #000000;
+    width: 189px;
+    height: 128px;
+}
+
+.advantages-lists {
+    width: 276px;
+    height: 276px;
+    border-radius: 15px 0px 0px 0px;
+    background-image: url('img/Background-image1.jpg');
+    background-position: center, center;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.advantages-lists-images {
+    padding-left: 45px;
+    padding-top: 40px;
+}
+
+.placement-image {
+    display: inline-block;
+    width: 374px;
+    height: 217px;
+    border-radius: 15px 15px 0px 0px;
+    background-image: url('img/Background-image1.jpg');
+    background-position: center, center;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.placement-lists-images {
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.image-container2 {
+    width: 374px;
+    height: 460px;
+    top: 2824px;
+    left: 375px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    background-image: url('img/Background-image1.jpg');
+    border-radius: 20px;
+}
+
+.placement-description {
+    display: inline-block;
+    width: auto;
+    height: 20px;
+    font-family: Muller;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: #000000;
+    padding-right: 0;
+    padding-left: 50px;
+}
+
+.from {
+    font-family: Muller;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    width: 17px;
+    height: 16px;
+    gap: 0px;
+    opacity: 0px;
+    color: #999999;
+}
+
+.night {
+    font-family: Muller;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    width: 47px;
+    height: 16px;
+    margin-left: 10px;
+    color: #000000;
+}
+
+.placement-description2 {
+    font-family: Muller;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 100%;
+    height: 16px;
+    margin-top: 5px;
+    left: 45px;
+    gap: 0px;
+    opacity: 1;
+    color: #000000;
+    padding-left: 45px;
+}
+
+
+.placement-description3 {
+    width: 191px;
+    height: 16px;
+    padding-top: 15px;
+    left: 45px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Muller;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #999999;
+    padding-left: 45px;
+}
+
+.placement-description4 {
+    font-family: Muller;
+    width: 60px;
+    height: 16px;
+    padding: 13px 13px 13px 20px;
+    margin: auto;
+    margin-left: 40px;
+    margin-bottom: 45px;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px;
+    opacity: 0px;
+    border: 2px solid #CC9933;
+    color: #CC9933
+}
+
+.ranking {
+    margin-left: 0;
+}
+
+.first-ranking {
+    margin-left: 50px;
+}
+
+.image-container3 {
+    position: relative;
+    width: 374px;
+    /* Set the width to 374px */
+    height: 450px;
+    /* Set the height to 450px */
+    background-image: url('img/9.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.final-image-text {
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    width: 100%;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    font-family: Muller;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    width: 250px;
+    height: 40px;
+    font-family: Muller;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    background-image: url('img/rectangle-white.svg');
+    background-position: center right;
+    background-repeat: no-repeat;
+}
